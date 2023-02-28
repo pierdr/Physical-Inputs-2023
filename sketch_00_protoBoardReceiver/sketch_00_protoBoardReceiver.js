@@ -87,6 +87,9 @@ function draw() {
   text("Encoder:", 300, 20);
   text(encoderValue, 300, 40);
 }
+
+
+
 function decodeString(input) {
 
 
