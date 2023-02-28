@@ -28,7 +28,7 @@ function setup() {
   serial = new p5.SerialPort();
   console.log('p5.serialport.js ' + serial.version);
   serial.list();
-  serial.openPort("/dev/cu.usbmodemHIDPC1");
+  serial.openPort("/dev/tty.usbmodemHIDPC1");
 
 
   // When our serial port is opened and ready for read/write
