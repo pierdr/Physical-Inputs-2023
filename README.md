@@ -2,6 +2,15 @@
 
 ### Protoboard read from serial
 
+#### Setting up your client
+1. Import the library https://github.com/p5-serial/p5.serialport/tree/main/lib
+	a. to import the library in Processing IDE, copy the file **p5.serialport.js** inside the libaries folder inside your sketch folder. 
+
+
+
+
+
+#### Setting up the server
 1. download https://github.com/p5-serial/p5.serialserver
 2. Open the **terminal** and navigate to this repository (cd + drag and drop the folder).
 3. Install the dependencies with the command ```npm install```.
